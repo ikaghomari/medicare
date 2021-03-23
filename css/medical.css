@@ -1,0 +1,232 @@
+/* GENERAL */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial,sans-serif;
+	font-size: 15px;
+}
+
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.color{
+	color: #2D8D89;
+}
+
+a{
+	text-decoration: none;
+	color:#444;
+}
+
+h4{
+  font-size: 24px;
+  color: #444;
+}
+
+p{
+line-height: 20px;
+color: #777;
+}
+
+.clear{
+	clear: both;
+}
+
+small{
+	font-size: 13px;
+	font-style: italic;
+
+}
+
+h3{
+	font-size: 30px;
+	color: #444;
+}
+
+/* HEADER color */
+header{
+	height: 35px;
+	background-color: #2D8D89;
+}
+
+/* HEADER */
+
+#head{
+	height: 60px;
+}
+
+#head h1{
+	font-family: 'Crete Round',serif;
+	font-size: 45px;
+	color:#444;
+    float: left;
+	margin-top:15px;
+}
+
+#head nav{
+	float:right;
+	margin-top: 40px;
+}
+
+ul{
+	list-style: none;
+}
+
+#head nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+#head nav ul li :hover {
+  border-bottom: 2px solid ;
+  border-color: #53C6C6;
+ 
+  
+  }
+
+#head nav ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+/*MAIN IMAGE*/
+#main-image {
+	height: 580px;
+	background: url('image/medecin.jpeg') center no-repeat;
+	background-size: 900px 500px;
+}
+
+#main-image h2{
+	color: #444;
+	font-size: 55px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-left: 47px;
+	padding:140px 0px 40px 0px;
+	margin-bottom: 20px;
+
+}
+
+.btn{
+	font-size: 20px;
+	background-color: #ff7a00;
+	color: #FFF;
+	border-radius: 3px;
+	display: block;
+	width: 120px;
+	height: 50px;
+	margin: 0 150px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: #2D8D89;
+}
+
+
+/*STEPS */
+
+#steps ul li{
+	width: 300px;
+	float:left;
+	margin-right: 10px;
+	padding-top: 130px;
+	
+}
+
+
+#steps ul li  h4{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+#steps p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+
+}
+
+#step1{
+background: url(image/steps-icon-1.png) no-repeat  top center;
+
+}
+
+#step2{
+background: url(image/patient.png) no-repeat top center;
+background-size: 100px 100px;
+}
+
+#step3{
+background: url(image/admin.jpeg) no-repeat top center;
+background-size: 140px 110px;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+	height: 140px;
+	background-color: #444;
+	text-align: center;
+	
+}
+
+footer h1{
+padding-top: 50px;
+color: #fff;
+font-size: 40px;
+margin-bottom: 10px;
+font-family: 'Crete Round',serif;
+}
+
+footer p{
+	padding-top: 2px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

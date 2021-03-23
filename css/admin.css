@@ -1,0 +1,114 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: arial,sans-serif;
+  font-size: 15px;
+}
+
+body{
+  margin: 0 auto;
+  background-image: url("../photo/coeur.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 660px;
+}
+
+/* HEADER color */
+header{
+  height: 35px;
+  background-color: #2D8D89;
+}
+
+.wrapper{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+a{
+  text-decoration: none;
+  color:#444;
+}
+/* HEADER */
+
+/* HEADER color */
+header{
+  height: 35px;
+  background-color: #2D8D89;
+}
+
+/* HEADER */
+
+#head{
+  height: 100px;
+  
+    
+}
+
+#head h1{
+  font-family: 'Crete Round',serif;
+  font-size: 45px;
+  color:#444;
+    float: left;
+  margin-top:15px;
+}
+
+#head nav{
+  float:right;
+  margin-top: 40px;
+}
+
+ul{
+  list-style: none;
+}
+
+#head nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#head nav ul li :hover {
+  border-bottom: 2px solid ;
+  border-color: #53C6C6;
+ 
+  
+  }
+
+#head nav ul li a{
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+div#content div{
+  display: inline-block;
+}
+
+.icon-bar {
+  width: 450px;
+  margin-top: 30px;
+  margin-right: 300px;
+   vertical-align: top;
+}
+
+.icon-bar a {
+  display: block;
+  padding: 13px;
+  margin-left:40px ;
+  transition: all 0.3s ease;
+  font-size: 25px;
+}
+
+.icon-bar .active{
+  color: #F72E12;
+}
+
+.icon-bar a:hover {
+  color:black;
+}
+
